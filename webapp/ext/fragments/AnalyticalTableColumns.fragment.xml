@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns="sap.m">
+    <table:AnalyticalColumn width="150px">
+        <Label text="Extension Column"/>
+        <table:template>
+            <Text text="Extension Column text"/>
+        </table:template>
+        <table:customData>
+            <core:CustomData key="p13nData" value="\{&quot;columnKey&quot;: &quot;CustomColumn1&quot;, &quot;columnIndex&quot;: &quot;101&quot;, &quot;leadingProperty&quot;: &quot;Discontinued&quot;}"/>
+        </table:customData>
+    </table:AnalyticalColumn>
+</core:FragmentDefinition>
