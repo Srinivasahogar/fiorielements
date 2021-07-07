@@ -28,11 +28,11 @@
                         <PropertyValue Property="Deletable" Bool="false" />
                     </Record>
                 </Annotation>
-                <Annotation Term="Capabilities.InsertRestrictions">
+<!--                 <Annotation Term="Capabilities.InsertRestrictions">
                     <Record Type="Capabilities.InsertRestrictionsType">
                         <PropertyValue Property="Insertable" Bool="false"/>
                     </Record>
-                </Annotation>
+                </Annotation> -->
             </Annotations>
             <Annotations Target="NorthwindModel.Product/ProductName">
                 <Annotation Term="Common.Label" String="{@i18n>product}" />
